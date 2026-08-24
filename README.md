@@ -1,3 +1,4 @@
+## How to run:
 ```bash
 cd seminar-day-planner
 python3.11 -m venv .venv
