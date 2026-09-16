@@ -64,4 +64,3 @@ def test_error_rows_cannot_be_confirmed(engine) -> None:
         batch_id = stage_import_batch(session, event_id, preview).id
     with session_scope(engine) as session, pytest.raises(ValueError):
         confirm_import_batch(session, batch_id)
-
